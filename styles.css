@@ -7,5 +7,9 @@ h1{
     font-weight: bolder;
 }
 ul{
-background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 255));
+background-image: linear-gradient(rgb(255, 0, 0),rgb(4, 0, 255));
+display: inline-block;
+}
+ol{
+    background-image: linear-gradient(rgb(4,0,255),rgb(0,255,0));
 }
