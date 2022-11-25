@@ -1,0 +1,11 @@
+*{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+ul{
+background-image: linear-gradient(rgb(255, 0, 0),rgb(255, 0, 255));
+}
