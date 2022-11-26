@@ -1,15 +1,59 @@
-*{
-    background-color: black;
+html{
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(rgb(0, 140, 255), rgb(255, 255, 255) );
+    height: 100%;
+    margin: none;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar,
+.header
+{
+    background-color: rgba(0, 0, 0, 0.432);
+    opacity: 30%;
     color: white;
+    text-align: center;
+    margin: none;
+    border-width: 0;
+    padding: 3vw;
+ 
+    
 }
-h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+a{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+a:hover{
     font-weight: bolder;
+    font-size: 24px;
+    color: white!important;
+    transition: 0.5s;
+    transition-duration: 0.5s ;
 }
-ul{
-background-image: linear-gradient(rgb(255, 0, 0),rgb(4, 0, 255));
-display: inline-block;
+.dino{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    filter: brightness(160%);
 }
-ol{
-    background-image: linear-gradient(rgb(4,0,255),rgb(0,255,0));
+.image{
+    background-color: rgb(67,138,251) !important;
+    padding-bottom: 26vw;
 }
+/* .me-right{
+    color: white;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+}
+.me-left{
+    color: white;
+    text-align: left;
+    position: absolute;
+} */
